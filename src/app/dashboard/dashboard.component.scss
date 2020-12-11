@@ -1,0 +1,9 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+
+  .dashboard-item{
+    margin: 20px;
+  }
+}

@@ -1,0 +1,9 @@
+<mat-card class="example-card" [routerLink]="['/sport', sport.idSport]">
+  <img mat-card-image [src]="sport.strSportThumb" [alt]="sport.strSport">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image">
+      <img mat-card-image [src]="getIconImg()" [alt]="sport.strSport">
+    </div>
+    <mat-card-title>{{sport.strSport}}</mat-card-title>
+  </mat-card-header>
+</mat-card>
